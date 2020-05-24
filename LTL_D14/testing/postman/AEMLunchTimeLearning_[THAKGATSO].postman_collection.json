@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "1ecce205-d7ed-47e1-a002-8003e41cf0bd",
+		"name": "AEMLunchTimeLearning_[THAKGATSO]",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "LTL_D14_CreateJcrContent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4502/crx/de/index.jsp#/content/demoproject/en/demoNode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4502",
+					"path": [
+						"crx",
+						"de",
+						"index.jsp"
+					],
+					"hash": "/content/demoproject/en/demoNode"
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
